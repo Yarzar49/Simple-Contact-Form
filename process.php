@@ -11,7 +11,7 @@ if(empty($name) || empty($email) || empty($message)) {
 }
 
 // Send email
-$to = "youremail@example.com";
+$to = "yarzarfcb@gmail.com";
 $subject = "New Contact Form Submission";
 $body = "Name: $name\nEmail: $email\nMessage: $message";
 $headers = "From: $email";
